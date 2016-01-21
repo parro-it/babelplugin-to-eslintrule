@@ -1,23 +1,25 @@
 {
   "name": "babelplugin-to-eslintrule",
-  "version": "0.0.1",
-  "description": "",
+  "version": "1.0.0",
+  "description": "Map babel plugins to corresponding eslint ecmaFeatures",
   "repository": "parro-it/babelplugin-to-eslintrule",
   "license": "MIT",
   "author": "parro-it",
   "scripts": {
     "test": "eslint . && node test | faucet"
   },
-  "keywords": [],
-  "engines": {
-    "node": ">=5"
-  },
+  "keywords": [
+    "babel",
+    "plugins",
+    "eslint",
+    "ecmaFeatures"
+  ],
   "eslintConfig": {
-    "extends": "js"
+    "extends": "defaults/configurations/gulp"
   },
   "devDependencies": {
     "eslint": "^1.10.3",
-    "eslint-config-js": "^2.0.2",
+    "eslint-config-defaults": "^8.0.2",
     "faucet": "0.0.1",
     "tape": "^4.2.2"
   },
