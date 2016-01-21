@@ -20,8 +20,9 @@ npm install --save babelplugin-to-eslintrule
 ```
 > ['defaultParams']
 
-return an array containing eslint's ecmaFeatures to lint
+return an array containing eslint's ecmaFeatures corresponding to
 the es2015 feature provided by the babel plugin.
+
 Return an empty array if no corresponding ecmaFeature exists.
 
 
