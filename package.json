@@ -1,6 +1,6 @@
 {
   "name": "babelplugin-to-eslintrule",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Map babel plugins to corresponding eslint ecmaFeatures",
   "repository": "parro-it/babelplugin-to-eslintrule",
   "license": "MIT",
