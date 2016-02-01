@@ -23,6 +23,7 @@ var ruleMap = {
   'es2015-unicode-regex': ['regexUFlag'],
   'es2015-modules': ['modules'],
   'es2015-generators': ['generators'],
+  'regenerator': ['generators'],
   'es3-function-scope': []
 };
 

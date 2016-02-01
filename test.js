@@ -13,6 +13,12 @@ test('return empty array for non corresponding babel plugin', function (t) {
   t.end();
 });
 
+test('support generators', function (t) {
+  var result = eslintFeature('regenerator');
+  t.deepEqual(result, ['generators']);
+  t.end();
+});
+
 test('return empty array for non known babel plugin', function (t) {
   var result = eslintFeature('unknown');
   t.deepEqual(result, []);
